@@ -1,0 +1,51 @@
+.main_navbar {
+    padding: 0px 10px;
+    display: flex;
+    /* border: 1px solid red; */
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+}
+
+.home_logo {
+    /* border: 1px solid blue; */
+    width: 15%;
+    padding: 5px;
+}
+
+.home_logo > a > div {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 7%;
+    font-size: 20px;
+}
+.home_logo > a > div > img {
+    width: 30%;
+}
+
+.product_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+.about_us {
+    /* border: 1px solid green; */
+    width: 35%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.getAppButton {
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

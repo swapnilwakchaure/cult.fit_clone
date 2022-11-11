@@ -1,0 +1,102 @@
+.video_content {
+    /* border: 1px solid red; */
+    /* background-color: #34515e; */
+    background-color: #333;
+    padding: 5px;
+}
+
+.video_content:first-child p {
+    /* border: 1px solid; */
+    width: 29%;
+    margin: auto;
+}
+
+.video_content > h1 {
+    /* border: 1px solid red; */
+    width: 35%;
+    margin: auto;
+    font-size: 30px;
+    color: white;
+}
+
+.video_content > Button {
+    /* border: 1px solid red; */
+    margin: 10px; 
+}
+
+.we_are {
+    /* border: 1px solid blue; */
+    font-size: 40px;
+    font-weight: bold;
+    height: 50px;
+    color: #9e9d24;
+}
+
+.cult {
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    font-size: 120px;
+    font-weight: bold;
+    color: #6c6f00;
+}
+
+.down_arrow {
+    /* border: 1px solid red; */
+    margin: 20px auto;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* display flex courses */
+.video_content + div {
+    background-color: #333;
+    padding: 10px;
+}
+.courses {
+    /* background-color: #333; */
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    gap: 3%;
+    line-height: 30px;
+    color: white;
+}
+
+.courses > div > img {
+    display: block;
+}
+
+.courses > div > img:hover {
+    zoom: 102%;
+}
+
+.courses > div > h1 {
+    /* border: 1px solid red; */
+    width: 60%;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.courses > div > ul > li {
+    /* border: 1px solid red; */
+    width: 60%;
+    margin: 10px;
+}
+
+.courses > div > div {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 5%;
+    margin: 10px;
+}
+
+.courses > div > div > Button:first-child {
+    /* border: 1px solid red; */
+    background-color: grey;
+}
+
+.courses > div > div > Button:last-child {
+    background-color: white;
+    color: red;
+}

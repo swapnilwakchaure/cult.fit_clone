@@ -8,7 +8,7 @@ import Location from "../components/Locations/Location";
 import GetApp from "../components/GetApp/GetApp";
 import Account from "../components/Accounts/Account";
 import Cart from "../components/Carts/Cart";
-
+import DarkSwitchMode from "../components/DarkSwitchMode";
 const AllRoutes = () => {
     return (
         <Routes>
@@ -21,6 +21,7 @@ const AllRoutes = () => {
             <Route path="/getapp" element={<GetApp />} />
             <Route path="/account" element={<Account />} />
             <Route path="cart" element={<Cart />} />
+            <Route path="/darkswitchmode" element={<DarkSwitchMode />} />
         </Routes>
     )
 }
