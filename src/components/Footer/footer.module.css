@@ -1,0 +1,75 @@
+.main_footer {
+    background-color: black;
+    color: #e0e0e0;
+}
+
+.first_footer {
+    /* border: 1px solid red; */
+    height: 500px;
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.first_footer > div:first-child {
+    /* border: 1px solid red; */
+    width: 30%;
+}
+
+.cult_fit_logo {
+    /* border: 1px solid red; */
+    width: 50%;
+    margin: 70px 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cult_fit_logo > img {
+    width: 50%;
+}
+
+.cult_fit_logo > h1 {
+    font-size: 30px;
+}
+
+.contact_us {
+    /* border: 1px solid green; */
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    line-height: 60px;
+}
+
+.first_footer > div:last-child {
+    /* border: 1px solid yellow; */
+    width: 30%;
+}
+
+.app_store {
+    margin-top: 100px;
+}
+
+.app_store > img {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.social_media {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+/* second footer part */
+.second_footer {
+    /* border: 1px solid red; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
