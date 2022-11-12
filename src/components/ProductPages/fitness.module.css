@@ -1,0 +1,42 @@
+.heading {
+    /* border: 1px solid red; */
+    width: 40%;
+    margin: 50px 0px 0px 150px;
+    line-height: 35px;
+    color: grey;
+}
+
+.heading > h1 {
+    /* border: 1px solid red; */
+    width: 25%;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+.cult_fit_products {
+    /* border: 1px solid red; */
+    width: 75%;
+    margin: 50px auto;
+    margin-bottom: 300px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5%;
+}
+
+.cult_fit_products > div:hover {
+    zoom: 110%;
+}
+
+.cult_fit_products > div > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px 0px;
+    color: #cecece;
+}
+
+.cult_fit_products > div > div + div {
+    /* border: 1px solid red; */
+    color: grey;
+}
