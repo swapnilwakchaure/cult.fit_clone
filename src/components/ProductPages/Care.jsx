@@ -1,7 +1,13 @@
+import Carousel1 from "../Carousel/Carousel1";
+import Carousel2 from "../Carousel/Carousel2";
+import Footer from "../Footer/Footer";
+
 const Care = () => {
     return (
         <div>
-            <p>we are taking care of our customers</p>
+            <Carousel1 />
+            <Carousel2 />
+            <Footer />
         </div>
     )
 }
