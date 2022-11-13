@@ -1,0 +1,12 @@
+
+.container {
+    /* border: 1px solid red; */
+    width: 75%;
+    margin: 50px auto;
+}
+
+.container div > img {
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 250px;
+}
