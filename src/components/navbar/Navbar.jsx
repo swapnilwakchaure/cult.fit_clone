@@ -5,6 +5,7 @@ import { MdAccountCircle } from "react-icons/md";
 import { GoLocation } from "react-icons/go";
 import navStyles from "./navbar.module.css";
 import DarkSwitchMode from "../DarkSwitchMode";
+import Account from "../Accounts/Account";
 
 const Navbar = () => {
     return (
@@ -30,7 +31,8 @@ const Navbar = () => {
 
                 <Link to="/getapp"><button className={navStyles.getAppButton} >GET APP</button></Link>
 
-                <Link to="/account"><MdAccountCircle fontSize="25px" /></Link>
+                {/* <Link to="/account"><MdAccountCircle fontSize="25px" /></Link> */}
+                <Account login={<MdAccountCircle fontSize="30px" />} />
 
                 <Link to="/cart"><BsCart3 fontSize="25px" /></Link>
                 <DarkSwitchMode />
